@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form input {
+  padding: 8px;
+  margin-right: 8px;
+  width: 65%;
+}
+
+.form button {
+  padding: 8px 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.counter {
+  font-weight: bold;
+}
